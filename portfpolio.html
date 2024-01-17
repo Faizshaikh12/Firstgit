@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            background-color: gray;
+            color: whitesmoke;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            scroll-behavior: auto;
+
+
+
+
+        }
+        /* home section*/
+        #home{
+            display: flex;
+            flex-direction: column;
+            background-color: beige;
+            cursor: pointer;
+
+        }
+
+
+
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 85px;
+            background-color: black;
+
+
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            list-style: none;
+            margin: 23px;
+            text-decoration: none;
+        }
+
+        .left {
+            font-size: 1.5rem
+        }
+
+        #Home {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px;
+            background-color: rgba(0, 0,0, 0);
+
+        }
+
+        .home  div {
+            margin: 30px;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+
+
+        }
+
+
+        .rightsection img {
+            width: 50%;
+            margin: 3px;
+        }
+        /* qualifications*/
+        #qualifications{ display: flex;
+            flex-direction: column;
+            
+            cursor: pointer;
+            
+        }
+
+
+        #qualifications {
+            display: grid;
+            max-width: fit-content;
+            margin: 40px;
+            font-size: 30px;
+            
+        }
+
+        #secondsection img {
+            width: 50px;
+            margin: 3px;
+        }
+        /*skills*/
+        #skills{
+            display: flex;
+            flex-direction: column;
+            
+            cursor: pointer;
+        }
+
+        #skills {
+            display: flex;
+            max-width: fit-content;
+            font-size: 30px;
+            margin: 40px;
+
+        }
+        /*additional information*/
+        #additonal information{
+            display: flex;
+            flex-direction: column;
+        
+            cursor: pointer;
+        }
+
+        #additional information {
+            display: grid;
+            max-width: fit-content;
+            margin: 40px;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Faiz Shaikh</div>
+            <div class="on click">
+                
+                
+
+                <ul id="section" >
+                    
+                    <li > <a   href="#home">home </a></li>
+
+                    <li><a href="#qualifications"> Qualifications </a></li>
+
+                    <li><a href="#skills">Skills </a></li>
+
+                    <label for="Additional Information"> </label>
+                    <li> <a href="#additional information">Additional Information </a></li>
+                    <select name="Additional Information" id=" Additional Information">
+                        <option value="Hobbies">Hobbies</option>
+                        <option value="Acheivements">Acheivements</option>
+                    </select>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+
+        </section>
+        <Section class="home">
+
+            <div id="home" class="home">
+                Myself
+                <hr>
+                <ul>
+                    <li> Mohd Faiz Shaikh </li>
+                    <li> I am fresher and i have to gain the experince. </li>
+                    <li><a href="RESUME.pdf"> RESUME :></a></li>
+                </ul>
+
+            </div>
+            <div class="rightsection">
+                <img src="2792.png_860.png" alt="300x300">
+
+
+            </div>
+            <div>
+                <div class="qualifications"></div>
+            </div>
+        </section>
+        <hr>
+        <section id="qualifications" class="qualifications">
+
+            <div class="leftsection">
+                Qualifications
+                <hr>
+
+                <ul>
+                    <li>2022 | I HAVE COMPLETED MY <b>GRADUATION </b>.</li>
+                    <li> 2019 | I HAVE COMPLETED MY <b>HSC</b>. </li>
+                    <li> 2017 | I HAVE COMPLETED MY <b>SSC</b></li>
+                </ul>
+            </div>
+
+
+
+
+        </section>
+        <hr>
+        <section id="skills" class="skills">
+
+            <div class="skills">
+                skills
+                <hr>
+
+
+
+                <ul>
+                    <li>I have done Mscit</li>
+                    <li> Shothand certificate of 80WPM</li>
+                    <li> Typing certificate of 40WPM.</li>
+
+                </ul>
+            </div>
+
+
+        </section>
+        <hr>
+        <section id="add information" class="additional information">
+            <div class="skills">
+                Additional Information
+                <hr>
+                Hobbies
+                <ul>
+                    <li>cricket</li>
+                    <li>Reading Books</li>
+                    <li>Internet Surfing</li>
+                </ul>
+                Acheivements
+                <ul>
+                    <li> Started teaching at Mahim. As an stenographer teacher.</li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+</body>
+
+</html>

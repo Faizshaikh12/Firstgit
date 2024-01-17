@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Travel Reservation form.</h1>
+    <form action="action_page.php">
+        <label for="Full name">Full Name:</label><br>
+        <input type="Full name" name="FULL Name"><br>
+
+        <label for="Email">Email*:</label><br>
+        <input type="email" name="email"><br>
+
+        <label for="tour packages">Select the tour Packages</label><br>
+        <select name="tour packages" id="tour packages"><br>
+            <option value="Goa">Goa:</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Lakshwadeep">Lakshwadeep</option>
+        </select><br>
+
+        <label for="arrival date">Arrival Date:</label><br>
+        <input type="date" name="date"><br>
+
+        <label for="Number of persons">Number of Persons:</label><br>
+        <select name="number of persons" id="number of persons">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+
+        <label for="avail">What woulld you want to avail?</label><br>
+        <input type="checkbox" id="checkbox" name="packages" itemid="packages">
+        <label for="packages">Boarding</label><br>
+        <input type="checkbox" id="checkbox" name=" packages" itemid="packages">
+        <label for="packages">Fooding</label><br>
+        <input type="checkbox" name="checkbox" id="packages" itemid="packages">
+        <label for="packages">Sight Seeing</label><br>
+
+        <label for="coupon code">Discount Coupon Code:</label><br>
+        <input type="coupon code" name=" coupon code"><br>
+
+        <label for="Terms and conditons">Terms and conditons</label><br>
+        <input type="radio" name="I agree" id="I agree">
+        <label for="i agree">I agree</label>
+        <input type="radio" name=" i disagree" id="i disagree">
+        <label for="i disagree"> I disagree</label><br>
+
+        <input type="submit" id=" submit">
+
+
+
+    </form>
+
+</body>
+
+</html>
